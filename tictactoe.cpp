@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdio>
-#include <cstdlib>
 #include <string>
 
 void reset_field(int **field);
@@ -11,6 +10,10 @@ bool check_move(int player, std::string move, int **field);
 void apply_move(int player, std::string move, int **field);
 int ctoi(int c) {
 	return c - '0';
+}
+char *itoa(long i, char* s, int dummy_radix) {
+    sprintf(s, "%ld", i);
+    return s;
 }
 void cls() {
 	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
