@@ -16,7 +16,7 @@ char *itoa(long i, char* s, int dummy_radix) {
     return s;
 }
 void cls() {
-	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 }
 
 int main() {
